@@ -1,0 +1,14 @@
+VS code extensions:
+must have:
+- Prettier (format on save turn on: ctrl+,)
+- Auto Import
+- Auto Import - ES6, TS, JSX, TSX
+- ES7+ React/Redux/React-Native snippets
+- Simple React Snippets
+optional:
+- Lorem ipsum
+- Material Icon Theme
+- Path Intellisense
+
+React Vite install:
+- npm create vite@latest
