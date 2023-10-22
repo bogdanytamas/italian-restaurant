@@ -1,0 +1,49 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/premium-vector/light-red-abstract-background-with-smooth-thin-lines_481866-695.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.registration-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.form-title {
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+Form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field {
+    width: 80%;
+}
+
+.registration-login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.registration-login a {
+    color: black;
+    font-weight: 600;
+}
