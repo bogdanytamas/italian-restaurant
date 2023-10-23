@@ -41,7 +41,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
         http.
-                csrf(csrf -> csrf.disable()).addFilterBefore(new CorsFilter(), SecurityContextPersistenceFilter.class).
+                csrf(csrf -> csrf.disable())
+                .addFilterBefore(new CorsFilter(), SecurityContextPersistenceFilter.class).
                 authorizeRequests(authorize -> authorize
                         .requestMatchers("/api/register").permitAll()
                         .anyRequest().authenticated()
